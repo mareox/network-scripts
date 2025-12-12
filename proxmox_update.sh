@@ -6,7 +6,7 @@ sed -i "s/^deb/\#deb/" /etc/apt/sources.list.d/pve-enterprise.list
 apt-get update -y && apt-get upgrade -y && apt-get update -y
 
 # Add PVE Community Repo
-echo "deb http://download.proxmox.com/debian/pve $(grep "VERSION=" /etc/os-release | sed -n 's/.*(\(.*\)).*/\1/p') pve-no-subscription" > /etc/apt-get/sources.list.d/pve-no-enterprise.list 
+echo "deb http://download.proxmox.com/debian/pve $(grep "VERSION=" /etc/os-release | sed -n 's/.*(\(.*\)).*/\1/p') pve-no-subscription" > /etc/apt-get/sources.list.d/pve-no-enterprise.list
 
 apt-get update -y
 
@@ -26,7 +26,7 @@ yes | apt-get upgrade -y
 
 # House cleaning
 apt-get autoclean
-yes | apt-get autoremove --purge 
+yes | apt-get autoremove --purge
 
 ### reboot
 echo " Your system will reboot in 10 seconds, ctrl+c to cancel "
@@ -39,7 +39,7 @@ for i in {9..1}; do
   echo "$i"
   sleep 1
 done
-  
+
 sleep 1
 echo " Here we goooooo! ................................ "
 sleep 3
