@@ -1,0 +1,39 @@
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+.cache/
+
+# Secrets and Credentials
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+*.pfx
+credentials.json
+secrets.yaml
+secrets.yml
+*_credentials.json
+config.local.*
+
+
+# Network scripts specific
+*.pcap
+*.cap
+hosts.txt
+inventory.txt
