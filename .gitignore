@@ -37,3 +37,22 @@ config.local.*
 *.cap
 hosts.txt
 inventory.txt
+
+# Bearer tokens and API keys
+*-token.txt
+*-token.json
+*_token.txt
+*_token.json
+*.token
+bearer_token*
+api_token*
+access_token*
+refresh_token*
+auth_token*
+
+# Token files
+tokens.json
+tokens.yaml
+tokens.yml
+.tokens
+
