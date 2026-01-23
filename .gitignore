@@ -13,7 +13,6 @@ desktop.ini
 # Temporary files
 *.tmp
 *.temp
-*.log
 *.bak
 .cache/
 
@@ -32,9 +31,14 @@ secrets.yml
 config.local.*
 
 
-# Network scripts specific
+# Logs and captures
+*.log
+*.har
 *.pcap
+*.pcapng
 *.cap
+
+# Network scripts specific
 hosts.txt
 inventory.txt
 
