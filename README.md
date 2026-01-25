@@ -2,7 +2,7 @@
 
 Collection of bash scripts for network administration and automation.
 
-**📋 Infrastructure Reference:** See `/homelab-infrastructure/INFRASTRUCTURE.md` for:
+**📋 Infrastructure Reference:** See `/homelab-infra/INFRASTRUCTURE.md` for:
 - Complete network topology (VLANs, subnets, routing)
 - All network devices (UniFi switches, APs, firewalls)
 - Server IP addresses and SSH access
